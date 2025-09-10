@@ -1,0 +1,42 @@
+# Source TypeScript files
+nodes/
+credentials/
+types.ts
+*.ts
+!*.d.ts
+!dist/**/*.d.ts
+
+# Type definitions directory
+@types/
+
+# Configuration files  
+tsconfig.json
+.eslintrc.js
+.eslintrc.prepublish.js
+gulpfile.js
+.prettierrc
+*.tsbuildinfo
+
+# Build scripts
+manual-build.js
+compile.js
+
+# Git files
+.gitignore
+.git/
+.github/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep dist folder
+!dist/
