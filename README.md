@@ -7,9 +7,9 @@ This is an n8n community node package for integrating with Wappfy WhatsApp API.
 Complete WhatsApp integration through Wappfy API with support for:
 
 ### 📱 Sessions
-- Create, start, stop, restart sessions
+- Get session information
 - QR code generation for authentication
-- Session management (logout, delete)
+- Session management (restart, logout)
 
 ### 💬 Messages
 - Send text, images, videos, audio, voice messages
@@ -78,43 +78,10 @@ The `instanceName` from credentials is automatically used in all requests:
 - For URL paths: `/api/{instanceName}/endpoint`
 - For request bodies: `{ "session": "{instanceName}", ... }`
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Build the node
-npm run build
-
-# Development mode
-npm run dev
-
-# Link for local testing
-npm link
-```
-
-## Publishing to npm
-
-1. Update version in package.json
-2. Build the project:
-   ```bash
-   npm run build
-   ```
-3. Login to npm:
-   ```bash
-   npm login
-   ```
-4. Publish:
-   ```bash
-   npm publish
-   ```
-
 ## Resources
 
 - [Wappfy Documentation](https://docs.wappfy.com.br)
 - [n8n Community Nodes](https://docs.n8n.io/integrations/community-nodes/)
-- [WhatsApp Business API](https://developers.facebook.com/docs/whatsapp)
 
 ## License
 
