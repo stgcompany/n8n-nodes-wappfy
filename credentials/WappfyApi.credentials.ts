@@ -35,7 +35,7 @@ export class WappfyApi implements ICredentialType {
       },
       default: '',
       required: true,
-      description: 'Optional API Key for authentication (leave empty if not required)',
+      description: 'API Key for authentication',
     },
   ];
 

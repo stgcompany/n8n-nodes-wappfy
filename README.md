@@ -68,9 +68,9 @@ npm install -g n8n-nodes-wappfy
 
 The node requires the following credentials:
 
-1. **Base URL**: The URL of your Wappfy instance (e.g., `http://localhost:3000`)
+1. **Base URL**: The URL of your Wappfy instance (e.g., `https://api.wappfy.com.br`)
 2. **Instance Name**: The session/instance name to use for all requests (e.g., `default`)
-3. **API Key** (optional): If your Wappfy instance requires authentication
+3. **API Key** (required): Your Wappfy API key for authentication
 
 ### Important: Instance Name Usage
 
