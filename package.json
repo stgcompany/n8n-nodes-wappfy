@@ -1,6 +1,6 @@
 {
   "name": "@wappfy/n8n-nodes-wappfy",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "n8n nodes for Wappfy WhatsApp API integration",
   "keywords": [
     "n8n-community-node-package",
@@ -13,7 +13,7 @@
   "homepage": "https://github.com/stgcompany/n8n-nodes-wappfy",
   "author": {
     "name": "Wappfy",
-    "email": "support@wappfy.com.br"
+    "email": "suporte@wappfy.com.br"
   },
   "repository": {
     "type": "git",
